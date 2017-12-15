@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body onload = "gone()"> </body>
+
+<h1>Hangman</h1>
+
+<select class = "initial" id="chooseDifficulty" >
+
+    <option value="1">Three Letter</option>
+    <option value="2">Four and Five Letter</option>
+    <option value="3">Long Words</option>
+    <option value="4">Mixed</option>
+    <option value="5">Chess Grand Masters</option>
+</select>
+
+<button class = "initial" id="submitDifficulty" onclick="runMe()">Submit Difficulty</button>
+<div class = "initial" id="lost"><p>You Lost!</p>
+
+</div>
+
+
+<div id="lettersAndDashes" >
+
+</div>
+
+<button class= "letters" id="a" onclick="buttonAnalyzer(this)" >a</button>
+<button class= "letters" id="b" onclick="buttonAnalyzer(this)" >b</button>
+<button class= "letters" id="c" onclick="buttonAnalyzer(this)" >c</button>
+<button class= "letters" id="d" onclick="buttonAnalyzer(this)" >d</button>
+<button class= "letters" id="e" onclick="buttonAnalyzer(this)" >e</button>
+<button class= "letters" id="f" onclick="buttonAnalyzer(this)" >f</button>
+<button class= "letters" id="g" onclick="buttonAnalyzer(this)" >g</button>
+<button class= "letters" id="h" onclick="buttonAnalyzer(this)" >h</button>
+<button class= "letters" id="i" onclick="buttonAnalyzer(this)" >i</button>
+<button class= "letters" id="j" onclick="buttonAnalyzer(this)" >j</button>
+<button class= "letters" id="k" onclick="buttonAnalyzer(this)" >k</button>
+<button class= "letters" id="l" onclick="buttonAnalyzer(this)" >l</button>
+<button class= "letters" id="m" onclick="buttonAnalyzer(this)" >m</button>
+<button class= "letters" id="n" onclick="buttonAnalyzer(this)" >n</button>
+<button class= "letters" id="o" onclick="buttonAnalyzer(this)" >o</button>
+<button class= "letters" id="p" onclick="buttonAnalyzer(this)" >p</button>
+<button class= "letters" id="q" onclick="buttonAnalyzer(this)" >q</button>
+<button class= "letters" id="r" onclick="buttonAnalyzer(this)" >r</button>
+<button class= "letters" id="s" onclick="buttonAnalyzer(this)" >s</button>
+<button class= "letters" id="t" onclick="buttonAnalyzer(this)" >t</button>
+<button class= "letters" id="u" onclick="buttonAnalyzer(this)" >u</button>
+<button class= "letters" id="v" onclick="buttonAnalyzer(this)" >v</button>
+<button class= "letters" id="w" onclick="buttonAnalyzer(this)" >w</button>
+<button class= "letters" id="x" onclick="buttonAnalyzer(this)" >x</button>
+<button class= "letters" id="y" onclick="buttonAnalyzer(this)" >y</button>
+<button class= "letters" id="z" onclick="buttonAnalyzer(this)" >z</button>
+
+<div id="wrongLetters"><p>Wrong Letters: </p>
+
+</div>
+
+<div id="youWon"><p>You Win!!!</p></div>
+
+<div id="image">
+
+</div>
+
+<button id="restart" onclick="restart()">Restart</button>
+
+</body>
+
+</html>

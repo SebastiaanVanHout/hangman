@@ -1,0 +1,100 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+
+h1{
+    font-size: 140px;
+    font-family: fantasy;
+    color: darkred;
+
+}
+
+#chooseDifficulty{
+    position: relative;
+    top: 30px;
+    width: 350px;
+    font-size: 40px;
+    font-family: fantasy;
+    color: darkred;
+    background-color: black;
+    border: darkred ridge;
+}
+
+#submitDifficulty{
+    position: absolute;
+    top: 770px;
+    left: 920px;
+    width: 750px;
+    font-size: 80px;
+    font-family: fantasy;
+    color: darkred;
+    background-color: black;
+    border: darkred ridge;
+    font-weight: bold;
+}
+#lettersAndDashes{
+    color: darkred;
+    font-family: fantasy;
+    font-size: 100px;
+}
+.letters{
+    position: relative;
+    top: 100px;
+    color: darkred;
+    border: darkred ridge;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+#space{
+    position: relative;
+    top: 110px;
+}
+
+#spaces{
+
+    position: relative;
+    top: 110px;
+
+}
+#wrongLetters{
+    position: relative;
+    top: 190px;
+    text-align: center;
+    color: darkred;
+    font-size: 30px;
+}
+#image{
+    position: relative;
+    top: 210px;
+}
+#lost{
+    position: relative;
+    top: 80px;
+    text-align: center;
+    color: darkred;
+    font-size: 100px;
+    font-family: fantasy;
+
+}
+#restart{
+    right: 5%;
+    position: absolute;
+    font-size: 40px;
+    font-family: fantasy;
+    color: darkred;
+    background-color: black;
+    border: darkred ridge;
+}
+#youWon{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: darkred;
+    font-size: 100px;
+    font-family: fantasy;
+
+}
